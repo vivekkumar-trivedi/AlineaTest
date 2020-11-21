@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6973683D6702C40507D0DC2 /* Pods_AlineaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA2F677202509B782218217 /* Pods_AlineaTest.framework */; };
+		EE35CF01256925C1007622A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF00256925C1007622A2 /* AppDelegate.swift */; };
+		EE35CF03256925C1007622A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF02256925C1007622A2 /* SceneDelegate.swift */; };
+		EE35CF08256925C1007622A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE35CF06256925C1007622A2 /* Main.storyboard */; };
+		EE35CF0A256925C2007622A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE35CF09256925C2007622A2 /* Assets.xcassets */; };
+		EE35CF0D256925C2007622A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE35CF0B256925C2007622A2 /* LaunchScreen.storyboard */; };
+		EE35CF16256927E4007622A2 /* AlineaTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF15256927E4007622A2 /* AlineaTabViewController.swift */; };
+		EE35CF18256928DC007622A2 /* AlineaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF17256928DC007622A2 /* AlineaTabbar.swift */; };
+		EE35CF1A25692C04007622A2 /* AlineaThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF1925692C04007622A2 /* AlineaThemeManager.swift */; };
+		EE35CF1C25692EEE007622A2 /* AlineaUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF1B25692EEE007622A2 /* AlineaUtility.swift */; };
+		EE35CF1E256937AF007622A2 /* AlineaExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF1D256937AF007622A2 /* AlineaExploreViewController.swift */; };
+		EE35CF202569380B007622A2 /* AlineaBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF1F2569380B007622A2 /* AlineaBaseViewController.swift */; };
+		EE35CF22256946A3007622A2 /* AlineaExploreCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF21256946A3007622A2 /* AlineaExploreCategoryViewController.swift */; };
+		EE35CF24256946CF007622A2 /* AlineaExploreThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF23256946CF007622A2 /* AlineaExploreThemesViewController.swift */; };
+		EE35CF26256946F4007622A2 /* AlineaExploreTrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CF25256946F4007622A2 /* AlineaExploreTrendingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE23C8E558EA43B3DE7BD87 /* Pods-AlineaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlineaTest.release.xcconfig"; path = "Target Support Files/Pods-AlineaTest/Pods-AlineaTest.release.xcconfig"; sourceTree = "<group>"; };
+		3CA2F677202509B782218217 /* Pods_AlineaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlineaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		925E28E6254E53D5CC8E1723 /* Pods-AlineaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlineaTest.debug.xcconfig"; path = "Target Support Files/Pods-AlineaTest/Pods-AlineaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EE35CEFD256925C1007622A2 /* AlineaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlineaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE35CF00256925C1007622A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE35CF02256925C1007622A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE35CF07256925C1007622A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE35CF09256925C2007622A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE35CF0C256925C2007622A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE35CF0E256925C2007622A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE35CF15256927E4007622A2 /* AlineaTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaTabViewController.swift; sourceTree = "<group>"; };
+		EE35CF17256928DC007622A2 /* AlineaTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaTabbar.swift; sourceTree = "<group>"; };
+		EE35CF1925692C04007622A2 /* AlineaThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaThemeManager.swift; sourceTree = "<group>"; };
+		EE35CF1B25692EEE007622A2 /* AlineaUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaUtility.swift; sourceTree = "<group>"; };
+		EE35CF1D256937AF007622A2 /* AlineaExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaExploreViewController.swift; sourceTree = "<group>"; };
+		EE35CF1F2569380B007622A2 /* AlineaBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaBaseViewController.swift; sourceTree = "<group>"; };
+		EE35CF21256946A3007622A2 /* AlineaExploreCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaExploreCategoryViewController.swift; sourceTree = "<group>"; };
+		EE35CF23256946CF007622A2 /* AlineaExploreThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaExploreThemesViewController.swift; sourceTree = "<group>"; };
+		EE35CF25256946F4007622A2 /* AlineaExploreTrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaExploreTrendingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE35CEFA256925C1007622A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6973683D6702C40507D0DC2 /* Pods_AlineaTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60DBD7D3E5DC56EB48E8D6E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				925E28E6254E53D5CC8E1723 /* Pods-AlineaTest.debug.xcconfig */,
+				1AE23C8E558EA43B3DE7BD87 /* Pods-AlineaTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB413880AA02AAB9E2B89290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CA2F677202509B782218217 /* Pods_AlineaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE35CEF4256925C1007622A2 = {
+			isa = PBXGroup;
+			children = (
+				EE35CEFF256925C1007622A2 /* AlineaTest */,
+				EE35CEFE256925C1007622A2 /* Products */,
+				60DBD7D3E5DC56EB48E8D6E7 /* Pods */,
+				AB413880AA02AAB9E2B89290 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE35CEFE256925C1007622A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE35CEFD256925C1007622A2 /* AlineaTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE35CEFF256925C1007622A2 /* AlineaTest */ = {
+			isa = PBXGroup;
+			children = (
+				EE35CF00256925C1007622A2 /* AppDelegate.swift */,
+				EE35CF02256925C1007622A2 /* SceneDelegate.swift */,
+				EE35CF06256925C1007622A2 /* Main.storyboard */,
+				EE35CF09256925C2007622A2 /* Assets.xcassets */,
+				EE35CF0B256925C2007622A2 /* LaunchScreen.storyboard */,
+				EE35CF0E256925C2007622A2 /* Info.plist */,
+				EE35CF15256927E4007622A2 /* AlineaTabViewController.swift */,
+				EE35CF17256928DC007622A2 /* AlineaTabbar.swift */,
+				EE35CF1925692C04007622A2 /* AlineaThemeManager.swift */,
+				EE35CF1B25692EEE007622A2 /* AlineaUtility.swift */,
+				EE35CF1D256937AF007622A2 /* AlineaExploreViewController.swift */,
+				EE35CF1F2569380B007622A2 /* AlineaBaseViewController.swift */,
+				EE35CF21256946A3007622A2 /* AlineaExploreCategoryViewController.swift */,
+				EE35CF23256946CF007622A2 /* AlineaExploreThemesViewController.swift */,
+				EE35CF25256946F4007622A2 /* AlineaExploreTrendingViewController.swift */,
+			);
+			path = AlineaTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE35CEFC256925C1007622A2 /* AlineaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE35CF11256925C2007622A2 /* Build configuration list for PBXNativeTarget "AlineaTest" */;
+			buildPhases = (
+				BB6807B11BF6CC0EDC5C1FAE /* [CP] Check Pods Manifest.lock */,
+				EE35CEF9256925C1007622A2 /* Sources */,
+				EE35CEFA256925C1007622A2 /* Frameworks */,
+				EE35CEFB256925C1007622A2 /* Resources */,
+				599D0CC792D1DB9AA586AF37 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlineaTest;
+			productName = AlineaTest;
+			productReference = EE35CEFD256925C1007622A2 /* AlineaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE35CEF5256925C1007622A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EE35CEFC256925C1007622A2 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = EE35CEF8256925C1007622A2 /* Build configuration list for PBXProject "AlineaTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE35CEF4256925C1007622A2;
+			productRefGroup = EE35CEFE256925C1007622A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE35CEFC256925C1007622A2 /* AlineaTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE35CEFB256925C1007622A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE35CF0D256925C2007622A2 /* LaunchScreen.storyboard in Resources */,
+				EE35CF0A256925C2007622A2 /* Assets.xcassets in Resources */,
+				EE35CF08256925C1007622A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		599D0CC792D1DB9AA586AF37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlineaTest/Pods-AlineaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlineaTest/Pods-AlineaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlineaTest/Pods-AlineaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB6807B11BF6CC0EDC5C1FAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlineaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE35CEF9256925C1007622A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE35CF26256946F4007622A2 /* AlineaExploreTrendingViewController.swift in Sources */,
+				EE35CF01256925C1007622A2 /* AppDelegate.swift in Sources */,
+				EE35CF18256928DC007622A2 /* AlineaTabbar.swift in Sources */,
+				EE35CF1C25692EEE007622A2 /* AlineaUtility.swift in Sources */,
+				EE35CF16256927E4007622A2 /* AlineaTabViewController.swift in Sources */,
+				EE35CF24256946CF007622A2 /* AlineaExploreThemesViewController.swift in Sources */,
+				EE35CF1E256937AF007622A2 /* AlineaExploreViewController.swift in Sources */,
+				EE35CF202569380B007622A2 /* AlineaBaseViewController.swift in Sources */,
+				EE35CF1A25692C04007622A2 /* AlineaThemeManager.swift in Sources */,
+				EE35CF03256925C1007622A2 /* SceneDelegate.swift in Sources */,
+				EE35CF22256946A3007622A2 /* AlineaExploreCategoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE35CF06256925C1007622A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE35CF07256925C1007622A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE35CF0B256925C2007622A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE35CF0C256925C2007622A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE35CF0F256925C2007622A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE35CF10256925C2007622A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE35CF12256925C2007622A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925E28E6254E53D5CC8E1723 /* Pods-AlineaTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlineaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VIVEKKUMAR.TRIVEDI.AlineaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE35CF13256925C2007622A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE23C8E558EA43B3DE7BD87 /* Pods-AlineaTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlineaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VIVEKKUMAR.TRIVEDI.AlineaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE35CEF8256925C1007622A2 /* Build configuration list for PBXProject "AlineaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE35CF0F256925C2007622A2 /* Debug */,
+				EE35CF10256925C2007622A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE35CF11256925C2007622A2 /* Build configuration list for PBXNativeTarget "AlineaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE35CF12256925C2007622A2 /* Debug */,
+				EE35CF13256925C2007622A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE35CEF5256925C1007622A2 /* Project object */;
+}
