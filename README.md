@@ -7,4 +7,4 @@ Test For Alinea by Vivekkumar Trivedi
 - app will run on iOS13+
 - app supports only portrait mode
 - app uses SF Symbols for images
-
+- i have added screens of implmentation under /Screen folders
